@@ -9,7 +9,7 @@ python evaluate.py
 ```
 即可
 
-# Code structure
+# 代码结构
 * [`game2048/`](game2048/): the main package.
     * [`game.py`](game2048/game.py): the core 2048 `Game` class.
     * [`agents.py`](game2048/agents.py): the `Agent` class with instances.
@@ -19,6 +19,10 @@ python evaluate.py
 * [`static/`](static/): frontend assets (based on Vue.js) for web app.
 * [`webapp.py`](webapp.py): run the web app (backend) demo.
 * [`evaluate.py`](evaluate.py): evaluate your self-defined agent.
+* [`model.py`](model.py): build the CNN model
+* [`my_agent.py`](my_agent.py): agent using CNN model to play the game
+* [`train.py`](train.py): train the model
+* [`grid_ohe.py`](grid_ohe.py): to encode the game board with one hot encoding
 
 # Requirements
 * code only tested on linux system (ubuntu 16.04)
