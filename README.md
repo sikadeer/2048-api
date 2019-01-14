@@ -1,6 +1,14 @@
 # 2048-api
 A 2048 game api for training supervised learning (imitation learning) or reinforcement learning agents
 
+# 说明
+
+评测 Agent 得分，运行
+```
+python evaluate.py
+```
+即可
+
 # Code structure
 * [`game2048/`](game2048/): the main package.
     * [`game.py`](game2048/game.py): the core 2048 `Game` class.
